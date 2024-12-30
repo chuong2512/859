@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b373374bb2bc47b7b5de6088908f1bb, type: 3}
+  m_Name: PurpleConcept
+  m_EditorClassIdentifier: 
+  changeSkybox: 1
+  skybox: {fileID: 2100000, guid: a41bbfb0f6b1b420dbbaf6bfb3de633f, type: 2}
+  enableVolume: 0
+  volume: {fileID: 0}
+  volumeProfile: {fileID: 0}
+  fog: 0
+  fogMode: 0
+  fogColor: {r: 0, g: 0, b: 0, a: 0}
+  fogDensity: 0
+  fogStart: 0
+  fogEnd: 0
+  ChangeBuildColors: 1
+  BuildMat: {fileID: 2100000, guid: 6621d75e6280c422e959c6b84f6b18c5, type: 2}
+  PlatformColor: {r: 0.85882354, g: 0.8509804, b: 0.9137255, a: 0}
+  PlatAtlas: {fileID: 2800000, guid: 386ff9a3e5058d441b5b8aa0cdb32674, type: 3}
