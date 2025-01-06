@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using GPHive.Core;
 using NaughtyAttributes;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Rigidbody))]
 public class SwerveController : MonoBehaviour
@@ -41,7 +42,7 @@ public class SwerveController : MonoBehaviour
 
 	private void Swerve()
 	{
-		if(Input.GetMouseButton(0))
+		if(Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
 		{
 			if(Input.GetMouseButtonDown(0))
 			{
